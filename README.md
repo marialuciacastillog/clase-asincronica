@@ -2,7 +2,7 @@
 
 **Maria Lucía Castillo García**
 
-Repositorio con los talleres de los bloques `02_bash`, `03_docker` y `04_aws_ec2`.
+Repositorio con los talleres de los bloques `01_bash`, `02_bash`, `03_docker` y `04_aws_ec2`.
 
 ## Cómo está organizado
 
@@ -20,6 +20,16 @@ revisarlo sin buscar en otro lado:
 Los documentos de evidencias contienen las capturas de ejecución y las respuestas
 escritas. El contenido de los archivos de configuración y código **no** se repite
 ahí: está en este repositorio, donde se puede leer y copiar directamente.
+
+## 01_bash
+
+| Taller | Tema | Carpeta |
+|---|---|---|
+| 1 | La terminal: navegar y manejar archivos | [`taller-1-terminal-basica`](01_bash/taller-1-terminal-basica) |
+| 2 | Filtros, redirecciones y permisos | [`taller-2-filtros-y-permisos`](01_bash/taller-2-filtros-y-permisos) |
+| 3 | Scripts | [`taller-3-scripts`](01_bash/taller-3-scripts) |
+| 4 | Funciones, procesos y logs JSON | [`taller-4-procesos-y-json`](01_bash/taller-4-procesos-y-json) |
+| 5 | Introducción a Docker | [`taller-5-introduccion-docker`](01_bash/taller-5-introduccion-docker) |
 
 ## 02_bash
 
