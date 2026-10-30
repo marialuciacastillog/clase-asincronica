@@ -2,7 +2,7 @@
 
 **Maria Lucía Castillo García**
 
-Repositorio con los talleres de los bloques `bash_02` y `docker_03`.
+Repositorio con los talleres de los bloques `02_bash`, `03_docker` y `04_aws_ec2`.
 
 ## Cómo está organizado
 
@@ -21,26 +21,38 @@ Los documentos de evidencias contienen las capturas de ejecución y las respuest
 escritas. El contenido de los archivos de configuración y código **no** se repite
 ahí: está en este repositorio, donde se puede leer y copiar directamente.
 
-## bash_02
+## 02_bash
 
 | Taller | Tema | Carpeta |
 |---|---|---|
-| 1 | Bash: análisis de logs y scripts | [`taller-1-bash`](bash_02/taller-1-bash) |
-| 2 | Construcción de imágenes con Dockerfile | [`taller-2-dockerfile`](bash_02/taller-2-dockerfile) |
-| 3 | Docker Compose y Nginx | [`taller-3-docker-compose-nginx`](bash_02/taller-3-docker-compose-nginx) |
+| 1 | Bash: análisis de logs y scripts | [`taller-1-bash`](02_bash/taller-1-bash) |
+| 2 | Construcción de imágenes con Dockerfile | [`taller-2-dockerfile`](02_bash/taller-2-dockerfile) |
+| 3 | Docker Compose y Nginx | [`taller-3-docker-compose-nginx`](02_bash/taller-3-docker-compose-nginx) |
 
-## docker_03
+## 03_docker
 
 | Taller | Tema | Carpeta |
 |---|---|---|
-| 1 | API Flask y balanceamiento de carga con Nginx | [`taller-1-flask-nginx-balanceo`](docker_03/taller-1-flask-nginx-balanceo) |
-| 2 | Reverse proxy con Nginx | [`taller-2-reverse-proxy`](docker_03/taller-2-reverse-proxy) |
-| 3 | Tres APIs Flask balanceadas con PostgreSQL | [`taller-3-flask-postgres-balanceo`](docker_03/taller-3-flask-postgres-balanceo) |
-| 4 | PostgreSQL con Docker y Docker Compose | [`taller-4-postgresql-docker-compose`](docker_03/taller-4-postgresql-docker-compose) |
-| 5 | MongoDB con Docker y Docker Compose | [`taller-5-mongodb-docker-compose`](docker_03/taller-5-mongodb-docker-compose) |
+| 1 | API Flask y balanceamiento de carga con Nginx | [`taller-1-flask-nginx-balanceo`](03_docker/taller-1-flask-nginx-balanceo) |
+| 2 | Reverse proxy con Nginx | [`taller-2-reverse-proxy`](03_docker/taller-2-reverse-proxy) |
+| 3 | Tres APIs Flask balanceadas con PostgreSQL | [`taller-3-flask-postgres-balanceo`](03_docker/taller-3-flask-postgres-balanceo) |
+| 4 | PostgreSQL con Docker y Docker Compose | [`taller-4-postgresql-docker-compose`](03_docker/taller-4-postgresql-docker-compose) |
+| 5 | MongoDB con Docker y Docker Compose | [`taller-5-mongodb-docker-compose`](03_docker/taller-5-mongodb-docker-compose) |
+
+## 04_aws_ec2
+
+| Taller | Tema | Carpeta |
+|---|---|---|
+| 1 | Crear y conectar una instancia EC2 | [`taller-1-crear-conectar-ec2`](04_aws_ec2/taller-1-crear-conectar-ec2) |
+| 2 | Administración de Linux en EC2 | [`taller-2-administracion-linux`](04_aws_ec2/taller-2-administracion-linux) |
+| 3 | Docker en EC2 con Nginx como reverse proxy | [`taller-3-docker-ec2`](04_aws_ec2/taller-3-docker-ec2) |
+| 4 | Seguridad de red y Security Groups | [`taller-4-seguridad-red`](04_aws_ec2/taller-4-seguridad-red) |
+| 5 | Automatización con User Data | [`taller-5-user-data`](04_aws_ec2/taller-5-user-data) |
+| 6 | EC2 en una arquitectura escalable | [`taller-6-arquitectura-escalable`](04_aws_ec2/taller-6-arquitectura-escalable) |
 
 ## Requisitos para ejecutar
 
 - Docker Desktop (los talleres se desarrollaron en Windows con Git Bash)
+- Para `04_aws_ec2`: una cuenta de AWS (los talleres se hicieron en AWS Academy Learner Lab, región `us-east-1`) y la llave `.pem` de la instancia, que no se incluye en el repositorio
 - Los talleres que publican el puerto `8080` no pueden ejecutarse simultáneamente:
   hay que detener uno (`docker compose down`) antes de levantar otro.
